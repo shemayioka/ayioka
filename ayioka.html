@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker Application</title>
+    <meta name="description" content="Expense Tracker Application Interface">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Expense Tracker</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>About Expense Tracker</h2>
+            <p>An application to track your expenses and manage your finances efficiently.</p>
+        </section>
+
+        <section>
+            <h2>User Registration</h2>
+            <form action="submit_form.php" method="POST">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="phone">Phone Number:</label><br>
+                <input type="tel" id="phone" name="phone" required><br><br>
+
+                <input type="submit" value="Register">
+            </form>
+        </section>
+
+        <section>
+            <h2>User Information Table</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Phone Number</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Shem Ayioka</td>
+                        <td>shemayioka@gmail.com</td>
+                        <td>254-751-811767</tr>
+                    </tr>
+                    <tr>
+                        <td>Emmanuel Mukasa</td>
+                        <td>emmanuel Mukasa@gmail.com</td>
+                        <td>254-751-811767</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h2>Welcome Image</h2>
+            <img src="sample-image.jpeg" alt="Sample Image">
+        </section>
+
+        <section>
+            <h2>External Link</h2>
+            <p>Visit <a href="https://google.com" target="_blank">Google</a></p>
+        </section>
+    </main>
+</body>
+</html>
